@@ -55,8 +55,6 @@ function Slider() {
     setShow(true);
     setCount(n);
     setCountimg(img_list[n].name);
-    //console.log(n);
-    console.log(img_list[n].name);
   }
 
   
