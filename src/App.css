@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  padding: 10px 0;
+  background-color: #333;
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /*font-size: calc(10px + 2vmin);*/
+  color: white;
+  box-shadow: 3px 3px 18px #a7a7a7;
+  position: fixed;
+  transition: 0.5s;
+}
+.App-header.act{
+  background-color: transparent;
+  color: #333;
+  box-shadow: none;
+}
+
+.App-header h1{
+  margin: 0;
+  margin-left: 15px;
+}
+.App-header ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+}
+.App-header ul li{
+  padding: 0 15px;
+  margin: 0;
+}
+.App-top{
+  width: 100%;
+  height: 100vh;
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addsuss{
+  background-color: rgb(249, 0, 0);
+}

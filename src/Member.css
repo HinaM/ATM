@@ -1,0 +1,75 @@
+.members{
+    background-color: #d7e1e1;
+    margin: 0;
+    padding: 30px 0;
+    width: 100%;
+}
+.me_12{
+    text-align: center;
+}
+.me_h1 {
+    font-size: 80px;
+	color: transparent;
+	-webkit-text-stroke: 2px #fff;
+}
+.mem_imgs{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.me_block{
+    /*border: 1px solid;*/
+}
+.me_block_img{
+    width: 90%;
+    padding-bottom: 90%;
+    height: 0;
+    background-color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+}
+.me_block_img.one{
+    background-color: #a8a8a8;
+}
+.me_block_img.one img{
+    top: 5%;
+    width: 180%;
+    position: absolute;
+    left: -25%;
+}
+.me_block_img.two{
+    background-color: #d5ebee;
+}
+.me_block_img.two img{
+    top: 5%;
+    width: 110%;
+    position: absolute;
+    left: -5%;
+}
+.me_block_img.three{
+    background-color: #efe4c7;
+}
+.me_block_img.three img{
+    top: 5%;
+    width: 130%;
+    position: absolute;
+    left: -25%;
+}
+.me_block_img.four{
+    background-color: #d5cfeb;
+}
+.me_block_img.four img{
+    top: 5%;
+    width: 115%;
+    position: absolute;
+    left: -5%;
+}
+.me_block_img img{
+    transition: 0.5s;
+}
+.me_block_img img:hover{
+    transform: scale(1.05);
+}
